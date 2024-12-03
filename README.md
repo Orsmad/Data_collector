@@ -1,6 +1,6 @@
 
-# Data Collector for Non-Compliant EC2 Instances [SSM.3]
-## Amazon EC2 instances managed by Systems Manager should have an association compliance status of COMPLIANT
+# Data Collector for Non-Compliant EC2 Instances
+## [SSM.3] Amazon EC2 instances managed by Systems Manager should have an association compliance status of COMPLIANT
 This Python project identifies and returns **non-compliant EC2 instances** in an AWS environment using the AWS CLI and boto3. The project analyzes resource compliance summaries and logs the details of non-compliant instances.
 More information about this here:
 https://docs.aws.amazon.com/securityhub/latest/userguide/ssm-controls.html#ssm-3
