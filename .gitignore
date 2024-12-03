@@ -37,9 +37,7 @@ build/
 # Local configuration files
 *.env
 
-# Docker
-docker-compose.yml
-Dockerfile
+
 
 # AWS config files
 .aws-sdk-config.json
